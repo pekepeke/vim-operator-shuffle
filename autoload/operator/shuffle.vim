@@ -60,6 +60,7 @@ function! s:rand(...) "{{{2
   if a:0 > 0
     return s:rand_seed % (a:1 + 1)
   endif
+  return s:rand_seed
 endfunction
 
 " __END__  "{{{1
